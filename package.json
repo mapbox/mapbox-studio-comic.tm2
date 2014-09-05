@@ -1,0 +1,7 @@
+{
+    "name": "comic",
+    "version": "1.0.0",
+    "description": "Style for Mapbox Studio",
+    "main": "./package.json",
+    "private": true
+}
