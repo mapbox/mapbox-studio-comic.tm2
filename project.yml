@@ -10,16 +10,16 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - -101.07421875
-  - 37.09023980307208
-  - 4
+  - -96.7730712890625
+  - 40.216635475391215
+  - 8
 description: ''
 format: "png8:m=h"
 interactivity_layer: ''
 layers: null
 maxzoom: 22
 minzoom: 0
-name: ''
+name: comic!
 source: "mapbox:///mapbox.mapbox-streets-v5"
 styles: 
   - style.mss

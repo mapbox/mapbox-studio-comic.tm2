@@ -1,11 +1,10 @@
-// Languages: name (local), name_en, name_fr, name_es, name_de
+// Lahttp://localhost:3000/style?id=tmstyle:///Users/duncangraham/Documents/Mapbox/comic.tm2#code-style_mssnguages: name (local), name_en, name_fr, name_es, name_de
 @name: '[name_en]';
 
 // Palette //
 @dark: #0B486B;
 @medium: #79BD9A;
 @light: #fff8f0;
-@hilight: #FF6;
 
 Map {
   background-color:@light;
@@ -15,17 +14,16 @@ Map {
 // Political boundaries //
 
 #admin {
+  line-join: round;
+  line-cap:round;
+  
   ::a[maritime=0][admin_level=2] {
-    line-join: round;
-    line-cap:round;
     line-color: @light;
     line-width: 1.4+6;
     [zoom>=6] { line-width: 2+6; }
     [zoom>=8] { line-width: 4+6; }
   }
   ::b[zoom>=0] {
-    line-join: round;
-    line-cap:round;
     line-color: @dark;
     [admin_level=2] {
       line-width: 1.4;
