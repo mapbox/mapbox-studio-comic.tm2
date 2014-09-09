@@ -19,7 +19,7 @@ interactivity_layer: ''
 layers: null
 maxzoom: 22
 minzoom: 0
-name: comic!
+name: Comic!
 source: "mapbox:///mapbox.mapbox-streets-v5"
 styles:
   - style.mss
