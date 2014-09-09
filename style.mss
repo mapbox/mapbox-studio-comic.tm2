@@ -1,4 +1,4 @@
-// Lahttp://localhost:3000/style?id=tmstyle:///Users/duncangraham/Documents/Mapbox/comic.tm2#code-style_mssnguages: name (local), name_en, name_fr, name_es, name_de
+// Languages: name (local), name_en, name_fr, name_es, name_de
 @name: '[name_en]';
 
 // Palette //
