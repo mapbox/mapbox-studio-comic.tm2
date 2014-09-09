@@ -107,7 +107,6 @@
   [zoom>=13] { text-size: 14; }
 }
 
-
 #poi_label[type!='Aerodrome'] {
   [zoom<14],
   [zoom>=14][scalerank=1][localrank<=1],

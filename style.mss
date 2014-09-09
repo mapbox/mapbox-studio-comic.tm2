@@ -10,13 +10,11 @@ Map {
   background-color:@light;
 }
 
-
 // Political boundaries //
 
 #admin {
   line-join: round;
   line-cap:round;
-  
   ::a[maritime=0][admin_level=2] {
     line-color: @light;
     line-width: 1.4+6;
@@ -46,7 +44,6 @@ Map {
   polygon-fill: @dark;
   polygon-gamma: 0.4;
 }
-
 
 // Landuse areas //
 
@@ -89,6 +86,7 @@ Map {
 }
 
 // Buildings //
+
 #building::fill[zoom>=13][zoom<=22] {
   polygon-pattern-file:url(img/halftone_15_medium.png);
   polygon-pattern-alignment:global;
@@ -98,6 +96,7 @@ Map {
   line-width:1;
   line-clip:false;
 }
+
 #building::shadow[zoom>=16] {
   line-color:@dark;
   line-width:3;
@@ -133,7 +132,6 @@ Map {
     [zoom>=16] {  line-pattern-file:url(img/road_6.png); }
   }
 }
-
 
 #road::fill,
 #tunnel::fill,
