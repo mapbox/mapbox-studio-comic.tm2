@@ -6,8 +6,7 @@
 @italic: 'Komika Hand Italic';
 
 #country_label[zoom>=3] {
-  //passing the name from the vector tile and passing it to the renderer as an argument
-  //adding "!" for excitement and satisfaction
+  //adding "!" to city names for excitement and satisfaction
   text-name: "[name_en] + '!'";
   text-transform: uppercase;
   text-face-name: @regular;
