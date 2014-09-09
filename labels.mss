@@ -1,17 +1,9 @@
 // Places //
 
 //Komika Font// 
-/*
 @regular: 'Komika Title Regular';
-@bold: 'Komika Hand Bold';n
+@bold: 'Komika Hand Bold';
 @italic: 'Komika Hand Italic';
-*/
-
-//Market Font// 
-@regular: 'Market Offc Pro Regular';
-@bold: 'Market Offc Pro Bold';
-@italic: 'Market Offc Pro Regular';
-
 
 #country_label[zoom>=3] {
   //passing the name from the vector tile and passing it to the renderer as an argument
