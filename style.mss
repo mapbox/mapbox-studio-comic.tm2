@@ -13,15 +13,17 @@ Map {
 // Political boundaries //
 
 #admin {
-  line-join: round;
-  line-cap:round;
   ::a[maritime=0][admin_level=2] {
+    line-join: round;
+    line-cap:round;
     line-color: @light;
     line-width: 1.4+6;
     [zoom>=6] { line-width: 2+6; }
     [zoom>=8] { line-width: 4+6; }
   }
   ::b[zoom>=0] {
+    line-join: round;
+    line-cap:round;
     line-color: @dark;
     [admin_level=2] {
       line-width: 1.4;
