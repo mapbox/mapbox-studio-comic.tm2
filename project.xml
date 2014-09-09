@@ -618,87 +618,81 @@
   <Rule>
     <MaxScaleDenominator>1500000</MaxScaleDenominator>
     <Filter>([admin_level] &gt; 2)</Filter>
-    <LineSymbolizer stroke-width="3" stroke-dasharray="2, 6" stroke="#0b486b" />
+    <LineSymbolizer stroke-width="3" stroke-dasharray="2, 6" stroke-linejoin="round" stroke-linecap="round" stroke="#0b486b" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>6500000</MaxScaleDenominator>
     <MinScaleDenominator>1500000</MinScaleDenominator>
     <Filter>([admin_level] &gt; 2)</Filter>
-    <LineSymbolizer stroke-width="2" stroke-dasharray="2, 5" stroke="#0b486b" />
+    <LineSymbolizer stroke-width="2" stroke-dasharray="2, 5" stroke-linejoin="round" stroke-linecap="round" stroke="#0b486b" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000000</MaxScaleDenominator>
     <MinScaleDenominator>6500000</MinScaleDenominator>
     <Filter>([admin_level] &gt; 2)</Filter>
-    <LineSymbolizer stroke-width="1" stroke-dasharray="2, 4" stroke="#0b486b" />
+    <LineSymbolizer stroke-width="1" stroke-dasharray="2, 4" stroke-linejoin="round" stroke-linecap="round" stroke="#0b486b" />
   </Rule>
   <Rule>
     <MinScaleDenominator>25000000</MinScaleDenominator>
     <Filter>([admin_level] &gt; 2)</Filter>
-    <LineSymbolizer stroke-width="0" stroke="#0b486b" />
+    <LineSymbolizer stroke-width="0" stroke-linejoin="round" stroke-linecap="round" stroke="#0b486b" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
     <Filter>([admin_level] = 2) and ([disputed] = 1)</Filter>
-    <LineSymbolizer stroke-dasharray="1, 4" stroke-width="4" stroke="#0b486b" />
+    <LineSymbolizer stroke-dasharray="1, 4" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" stroke="#0b486b" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500000</MaxScaleDenominator>
     <MinScaleDenominator>3000000</MinScaleDenominator>
     <Filter>([admin_level] = 2) and ([disputed] = 1)</Filter>
-    <LineSymbolizer stroke-dasharray="1, 4" stroke-width="2" stroke="#0b486b" />
+    <LineSymbolizer stroke-dasharray="1, 4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="#0b486b" />
   </Rule>
   <Rule>
     <MinScaleDenominator>12500000</MinScaleDenominator>
     <Filter>([admin_level] = 2) and ([disputed] = 1)</Filter>
-    <LineSymbolizer stroke-dasharray="1, 4" stroke-width="1.4" stroke="#0b486b" />
+    <LineSymbolizer stroke-dasharray="1, 4" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" stroke="#0b486b" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
     <Filter>([admin_level] = 2)</Filter>
-    <LineSymbolizer stroke-width="4" stroke="#0b486b" />
+    <LineSymbolizer stroke-width="4" stroke-linejoin="round" stroke-linecap="round" stroke="#0b486b" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500000</MaxScaleDenominator>
     <MinScaleDenominator>3000000</MinScaleDenominator>
     <Filter>([admin_level] = 2)</Filter>
-    <LineSymbolizer stroke-width="2" stroke="#0b486b" />
+    <LineSymbolizer stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="#0b486b" />
   </Rule>
   <Rule>
     <MinScaleDenominator>12500000</MinScaleDenominator>
     <Filter>([admin_level] = 2)</Filter>
-    <LineSymbolizer stroke-width="1.4" stroke="#0b486b" />
+    <LineSymbolizer stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" stroke="#0b486b" />
   </Rule>
   <Rule>
-    <LineSymbolizer stroke="#0b486b" />
+    <LineSymbolizer stroke-linejoin="round" stroke-linecap="round" stroke="#0b486b" />
   </Rule>
 </Style>
 <Style name="admin-a" filter-mode="first">
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
     <Filter>([maritime] = 0) and ([admin_level] = 2)</Filter>
-    <LineSymbolizer stroke-width="10" stroke="#fff8f0" />
+    <LineSymbolizer stroke-width="10" stroke-linejoin="round" stroke-linecap="round" stroke="#fff8f0" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500000</MaxScaleDenominator>
     <MinScaleDenominator>3000000</MinScaleDenominator>
     <Filter>([maritime] = 0) and ([admin_level] = 2)</Filter>
-    <LineSymbolizer stroke-width="8" stroke="#fff8f0" />
+    <LineSymbolizer stroke-width="8" stroke-linejoin="round" stroke-linecap="round" stroke="#fff8f0" />
   </Rule>
   <Rule>
     <MinScaleDenominator>12500000</MinScaleDenominator>
     <Filter>([maritime] = 0) and ([admin_level] = 2)</Filter>
-    <LineSymbolizer stroke="#fff8f0" stroke-width="7.4" />
-  </Rule>
-</Style>
-<Style name="admin" filter-mode="first">
-  <Rule>
-    <LineSymbolizer stroke-linejoin="round" stroke-linecap="round" />
+    <LineSymbolizer stroke-linejoin="round" stroke-linecap="round" stroke="#fff8f0" stroke-width="7.4" />
   </Rule>
 </Style>
 <Layer name="admin"
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
-    <StyleName>admin</StyleName>
     <StyleName>admin-a</StyleName>
     <StyleName>admin-b</StyleName>  </Layer>
 
@@ -715,68 +709,68 @@
   <Rule>
     <MaxScaleDenominator>50000000</MaxScaleDenominator>
     <Filter>([scalerank] = 1)</Filter>
-    <TextSymbolizer size="28" text-transform="uppercase" face-name="Market Offc Pro Regular" wrap-width="100" wrap-before="true" fill="#79bd9a" halo-fill="#0b486b" halo-radius="3" line-spacing="-10" ><![CDATA[[name_en] + '!']]></TextSymbolizer>
+    <TextSymbolizer size="28" text-transform="uppercase" face-name="Komika Title Regular" wrap-width="100" wrap-before="true" fill="#79bd9a" halo-fill="#0b486b" halo-radius="3" line-spacing="-10" ><![CDATA[[name_en] + '!']]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000000</MaxScaleDenominator>
     <MinScaleDenominator>50000000</MinScaleDenominator>
     <Filter>([scalerank] = 1)</Filter>
-    <TextSymbolizer size="20" text-transform="uppercase" face-name="Market Offc Pro Regular" wrap-width="100" wrap-before="true" fill="#79bd9a" halo-fill="#0b486b" halo-radius="3" line-spacing="-10" ><![CDATA[[name_en] + '!']]></TextSymbolizer>
+    <TextSymbolizer size="20" text-transform="uppercase" face-name="Komika Title Regular" wrap-width="100" wrap-before="true" fill="#79bd9a" halo-fill="#0b486b" halo-radius="3" line-spacing="-10" ><![CDATA[[name_en] + '!']]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000000</MaxScaleDenominator>
     <Filter>([scalerank] = 2)</Filter>
-    <TextSymbolizer size="28" text-transform="uppercase" face-name="Market Offc Pro Regular" wrap-width="100" wrap-before="true" fill="#79bd9a" halo-fill="#0b486b" halo-radius="3" line-spacing="-10" ><![CDATA[[name_en] + '!']]></TextSymbolizer>
+    <TextSymbolizer size="28" text-transform="uppercase" face-name="Komika Title Regular" wrap-width="100" wrap-before="true" fill="#79bd9a" halo-fill="#0b486b" halo-radius="3" line-spacing="-10" ><![CDATA[[name_en] + '!']]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000000</MaxScaleDenominator>
     <MinScaleDenominator>25000000</MinScaleDenominator>
     <Filter>([scalerank] = 2)</Filter>
-    <TextSymbolizer size="20" text-transform="uppercase" face-name="Market Offc Pro Regular" wrap-width="100" wrap-before="true" fill="#79bd9a" halo-fill="#0b486b" halo-radius="3" line-spacing="-10" ><![CDATA[[name_en] + '!']]></TextSymbolizer>
+    <TextSymbolizer size="20" text-transform="uppercase" face-name="Komika Title Regular" wrap-width="100" wrap-before="true" fill="#79bd9a" halo-fill="#0b486b" halo-radius="3" line-spacing="-10" ><![CDATA[[name_en] + '!']]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000000</MaxScaleDenominator>
     <MinScaleDenominator>50000000</MinScaleDenominator>
     <Filter>([scalerank] = 2)</Filter>
-    <TextSymbolizer text-transform="uppercase" face-name="Market Offc Pro Regular" wrap-width="100" wrap-before="true" fill="#79bd9a" size="16" halo-fill="#0b486b" halo-radius="3" line-spacing="-10" ><![CDATA[[name_en] + '!']]></TextSymbolizer>
+    <TextSymbolizer text-transform="uppercase" face-name="Komika Title Regular" wrap-width="100" wrap-before="true" fill="#79bd9a" size="16" halo-fill="#0b486b" halo-radius="3" line-spacing="-10" ><![CDATA[[name_en] + '!']]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500000</MaxScaleDenominator>
     <Filter>([scalerank] = 3)</Filter>
-    <TextSymbolizer size="28" text-transform="uppercase" face-name="Market Offc Pro Regular" wrap-width="100" wrap-before="true" fill="#79bd9a" halo-fill="#0b486b" halo-radius="3" line-spacing="-10" ><![CDATA[[name_en] + '!']]></TextSymbolizer>
+    <TextSymbolizer size="28" text-transform="uppercase" face-name="Komika Title Regular" wrap-width="100" wrap-before="true" fill="#79bd9a" halo-fill="#0b486b" halo-radius="3" line-spacing="-10" ><![CDATA[[name_en] + '!']]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000000</MaxScaleDenominator>
     <MinScaleDenominator>12500000</MinScaleDenominator>
     <Filter>([scalerank] = 3)</Filter>
-    <TextSymbolizer size="20" text-transform="uppercase" face-name="Market Offc Pro Regular" wrap-width="100" wrap-before="true" fill="#79bd9a" halo-fill="#0b486b" halo-radius="3" line-spacing="-10" ><![CDATA[[name_en] + '!']]></TextSymbolizer>
+    <TextSymbolizer size="20" text-transform="uppercase" face-name="Komika Title Regular" wrap-width="100" wrap-before="true" fill="#79bd9a" halo-fill="#0b486b" halo-radius="3" line-spacing="-10" ><![CDATA[[name_en] + '!']]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000000</MaxScaleDenominator>
     <MinScaleDenominator>25000000</MinScaleDenominator>
     <Filter>([scalerank] = 3)</Filter>
-    <TextSymbolizer text-transform="uppercase" face-name="Market Offc Pro Regular" wrap-width="100" wrap-before="true" fill="#79bd9a" size="16" halo-fill="#0b486b" halo-radius="3" line-spacing="-10" ><![CDATA[[name_en] + '!']]></TextSymbolizer>
+    <TextSymbolizer text-transform="uppercase" face-name="Komika Title Regular" wrap-width="100" wrap-before="true" fill="#79bd9a" size="16" halo-fill="#0b486b" halo-radius="3" line-spacing="-10" ><![CDATA[[name_en] + '!']]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>6500000</MaxScaleDenominator>
     <Filter>([scalerank] &gt; 3)</Filter>
-    <TextSymbolizer size="28" text-transform="uppercase" face-name="Market Offc Pro Regular" wrap-width="100" wrap-before="true" fill="#79bd9a" halo-fill="#0b486b" halo-radius="3" line-spacing="-10" ><![CDATA[[name_en] + '!']]></TextSymbolizer>
+    <TextSymbolizer size="28" text-transform="uppercase" face-name="Komika Title Regular" wrap-width="100" wrap-before="true" fill="#79bd9a" halo-fill="#0b486b" halo-radius="3" line-spacing="-10" ><![CDATA[[name_en] + '!']]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500000</MaxScaleDenominator>
     <MinScaleDenominator>6500000</MinScaleDenominator>
     <Filter>([scalerank] &gt; 3)</Filter>
-    <TextSymbolizer size="20" text-transform="uppercase" face-name="Market Offc Pro Regular" wrap-width="100" wrap-before="true" fill="#79bd9a" halo-fill="#0b486b" halo-radius="3" line-spacing="-10" ><![CDATA[[name_en] + '!']]></TextSymbolizer>
+    <TextSymbolizer size="20" text-transform="uppercase" face-name="Komika Title Regular" wrap-width="100" wrap-before="true" fill="#79bd9a" halo-fill="#0b486b" halo-radius="3" line-spacing="-10" ><![CDATA[[name_en] + '!']]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000000</MaxScaleDenominator>
     <MinScaleDenominator>12500000</MinScaleDenominator>
     <Filter>([scalerank] &gt; 3)</Filter>
-    <TextSymbolizer text-transform="uppercase" face-name="Market Offc Pro Regular" wrap-width="100" wrap-before="true" fill="#79bd9a" size="16" halo-fill="#0b486b" halo-radius="3" line-spacing="-10" ><![CDATA[[name_en] + '!']]></TextSymbolizer>
+    <TextSymbolizer text-transform="uppercase" face-name="Komika Title Regular" wrap-width="100" wrap-before="true" fill="#79bd9a" size="16" halo-fill="#0b486b" halo-radius="3" line-spacing="-10" ><![CDATA[[name_en] + '!']]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000000</MaxScaleDenominator>
-    <TextSymbolizer text-transform="uppercase" face-name="Market Offc Pro Regular" wrap-width="100" wrap-before="true" fill="#79bd9a" size="16" halo-fill="#0b486b" halo-radius="3" line-spacing="-10" ><![CDATA[[name_en] + '!']]></TextSymbolizer>
+    <TextSymbolizer text-transform="uppercase" face-name="Komika Title Regular" wrap-width="100" wrap-before="true" fill="#79bd9a" size="16" halo-fill="#0b486b" halo-radius="3" line-spacing="-10" ><![CDATA[[name_en] + '!']]></TextSymbolizer>
   </Rule>
 </Style>
 <Layer name="country_label"
@@ -795,97 +789,97 @@
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <Filter>([type] = 'town') and ([localrank] = 1)</Filter>
-    <TextSymbolizer size="20" face-name="Market Offc Pro Regular" fill="#0b486b" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="20" face-name="Komika Title Regular" fill="#0b486b" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>750000</MaxScaleDenominator>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([type] = 'town') and ([localrank] = 1)</Filter>
-    <TextSymbolizer size="16" face-name="Market Offc Pro Regular" fill="#0b486b" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="16" face-name="Komika Title Regular" fill="#0b486b" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
     <MinScaleDenominator>750000</MinScaleDenominator>
     <Filter>([type] = 'town') and ([localrank] = 1)</Filter>
-    <TextSymbolizer size="14" face-name="Market Offc Pro Regular" fill="#0b486b" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="14" face-name="Komika Title Regular" fill="#0b486b" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>3000000</MinScaleDenominator>
     <Filter>([type] = 'town') and ([localrank] = 1)</Filter>
-    <TextSymbolizer size="0" face-name="Market Offc Pro Regular" fill="#0b486b" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="0" face-name="Komika Title Regular" fill="#0b486b" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] = 1)</Filter>
-    <TextSymbolizer size="24" face-name="Market Offc Pro Bold" wrap-width="150" fill="#0b486b" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en] + '!']]></TextSymbolizer>
+    <TextSymbolizer size="24" face-name="Komika Hand Bold" wrap-width="150" fill="#0b486b" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en] + '!']]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>750000</MaxScaleDenominator>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] = 1)</Filter>
-    <TextSymbolizer size="18" face-name="Market Offc Pro Bold" wrap-width="150" fill="#0b486b" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en] + '!']]></TextSymbolizer>
+    <TextSymbolizer size="18" face-name="Komika Hand Bold" wrap-width="150" fill="#0b486b" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en] + '!']]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000000</MaxScaleDenominator>
     <MinScaleDenominator>750000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] = 1)</Filter>
-    <TextSymbolizer size="18" face-name="Market Offc Pro Bold" wrap-width="150" fill="#0b486b" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en] + '!']]></TextSymbolizer>
+    <TextSymbolizer size="18" face-name="Komika Hand Bold" wrap-width="150" fill="#0b486b" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en] + '!']]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>25000000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([localrank] = 1)</Filter>
-    <TextSymbolizer size="0" face-name="Market Offc Pro Regular" fill="#0b486b" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="0" face-name="Komika Title Regular" fill="#0b486b" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <Filter>([type] = 'village') and ([localrank] = 1)</Filter>
-    <TextSymbolizer size="18" face-name="Market Offc Pro Regular" fill="#0b486b" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="18" face-name="Komika Title Regular" fill="#0b486b" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] = 'village') and ([localrank] = 1)</Filter>
-    <TextSymbolizer size="14" face-name="Market Offc Pro Regular" fill="#0b486b" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="14" face-name="Komika Title Regular" fill="#0b486b" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([type] = 'village') and ([localrank] = 1)</Filter>
-    <TextSymbolizer size="12" face-name="Market Offc Pro Regular" fill="#0b486b" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="12" face-name="Komika Title Regular" fill="#0b486b" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([type] = 'hamlet')</Filter>
-    <TextSymbolizer size="16" face-name="Market Offc Pro Regular" fill="#0b486b" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="16" face-name="Komika Title Regular" fill="#0b486b" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([type] = 'hamlet')</Filter>
-    <TextSymbolizer size="14" face-name="Market Offc Pro Regular" fill="#0b486b" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="14" face-name="Komika Title Regular" fill="#0b486b" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] = 'hamlet')</Filter>
-    <TextSymbolizer size="0" face-name="Market Offc Pro Regular" fill="#0b486b" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="0" face-name="Komika Title Regular" fill="#0b486b" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([type] = 'suburb')</Filter>
-    <TextSymbolizer size="16" face-name="Market Offc Pro Regular" fill="#0b486b" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="16" face-name="Komika Title Regular" fill="#0b486b" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([type] = 'suburb')</Filter>
-    <TextSymbolizer size="14" face-name="Market Offc Pro Regular" fill="#0b486b" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="14" face-name="Komika Title Regular" fill="#0b486b" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] = 'suburb')</Filter>
-    <TextSymbolizer size="0" face-name="Market Offc Pro Regular" fill="#0b486b" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="0" face-name="Komika Title Regular" fill="#0b486b" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
-    <TextSymbolizer size="0" face-name="Market Offc Pro Regular" fill="#0b486b" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="0" face-name="Komika Title Regular" fill="#0b486b" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="3" line-spacing="-6" text-transform="uppercase" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
 </Style>
 <Layer name="place_label"
@@ -896,30 +890,30 @@
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <Filter>([area] &gt; 500000)</Filter>
-    <TextSymbolizer face-name="Market Offc Pro Regular" fill="#fff8f0" size="12" wrap-width="160" wrap-before="true" line-spacing="-4" halo-fill="#0b486b" halo-radius="2" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Komika Title Regular" fill="#fff8f0" size="12" wrap-width="160" wrap-before="true" line-spacing="-4" halo-fill="#0b486b" halo-radius="2" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([area] &gt; 500000)</Filter>
-    <TextSymbolizer face-name="Market Offc Pro Regular" fill="#fff8f0" size="12" wrap-width="160" wrap-before="true" line-spacing="-4" halo-fill="#0b486b" halo-radius="2" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Komika Title Regular" fill="#fff8f0" size="12" wrap-width="160" wrap-before="true" line-spacing="-4" halo-fill="#0b486b" halo-radius="2" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([area] &gt; 10000)</Filter>
-    <TextSymbolizer face-name="Market Offc Pro Regular" fill="#fff8f0" size="12" wrap-width="160" wrap-before="true" line-spacing="-4" halo-fill="#0b486b" halo-radius="2" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Komika Title Regular" fill="#fff8f0" size="12" wrap-width="160" wrap-before="true" line-spacing="-4" halo-fill="#0b486b" halo-radius="2" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([area] &gt; 10000)</Filter>
-    <TextSymbolizer face-name="Market Offc Pro Regular" fill="#fff8f0" size="12" wrap-width="160" wrap-before="true" line-spacing="-4" halo-fill="#0b486b" halo-radius="2" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Komika Title Regular" fill="#fff8f0" size="12" wrap-width="160" wrap-before="true" line-spacing="-4" halo-fill="#0b486b" halo-radius="2" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
-    <TextSymbolizer face-name="Market Offc Pro Regular" fill="#fff8f0" size="12" wrap-width="160" wrap-before="true" line-spacing="-4" halo-fill="#0b486b" halo-radius="2" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Komika Title Regular" fill="#fff8f0" size="12" wrap-width="160" wrap-before="true" line-spacing="-4" halo-fill="#0b486b" halo-radius="2" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
-    <TextSymbolizer face-name="Market Offc Pro Regular" fill="#fff8f0" size="12" wrap-width="160" wrap-before="true" line-spacing="-4" halo-fill="#0b486b" halo-radius="2" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Komika Title Regular" fill="#fff8f0" size="12" wrap-width="160" wrap-before="true" line-spacing="-4" halo-fill="#0b486b" halo-radius="2" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
 </Style>
 <Layer name="water_label"
@@ -930,333 +924,333 @@
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([localrank] &lt;= 1) and ([maki] = 'golf') and ([scalerank] = 1)</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([localrank] &lt;= 1) and ([maki] = 'golf') and ([scalerank] = 1)</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([localrank] &lt;= 1) and ([maki] = 'golf') and ([scalerank] = 1)</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([localrank] &lt;= 1) and ([maki] = 'golf') and ([scalerank] = 1)</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([scalerank] &lt;= 2) and ([localrank] &lt;= 1) and ([maki] = 'golf')</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([scalerank] &lt;= 2) and ([localrank] &lt;= 1) and ([maki] = 'golf')</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([scalerank] &lt;= 2) and ([localrank] &lt;= 1) and ([maki] = 'golf')</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([localrank] &lt;= 1) and ([maki] = 'zoo') and ([scalerank] = 1)</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([localrank] &lt;= 1) and ([maki] = 'zoo') and ([scalerank] = 1)</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([localrank] &lt;= 1) and ([maki] = 'zoo') and ([scalerank] = 1)</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([localrank] &lt;= 1) and ([maki] = 'zoo') and ([scalerank] = 1)</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([scalerank] &lt;= 2) and ([localrank] &lt;= 1) and ([maki] = 'zoo')</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([scalerank] &lt;= 2) and ([localrank] &lt;= 1) and ([maki] = 'zoo')</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([scalerank] &lt;= 2) and ([localrank] &lt;= 1) and ([maki] = 'zoo')</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([localrank] &lt;= 1) and ([maki] = 'park') and ([scalerank] = 1)</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([localrank] &lt;= 1) and ([maki] = 'park') and ([scalerank] = 1)</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([localrank] &lt;= 1) and ([maki] = 'park') and ([scalerank] = 1)</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([localrank] &lt;= 1) and ([maki] = 'park') and ([scalerank] = 1)</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([localrank] &lt;= 1) and ([maki] = 'park') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([localrank] &lt;= 1) and ([maki] = 'park') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([localrank] &lt;= 1) and ([maki] = 'park') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([scalerank] &lt;= 3) and ([localrank] &lt;= 1) and ([maki] = 'park')</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([scalerank] &lt;= 3) and ([localrank] &lt;= 1) and ([maki] = 'park')</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([scalerank] &lt;= 3) and ([localrank] &lt;= 1) and ([maki] = 'golf')</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([scalerank] &lt;= 3) and ([localrank] &lt;= 1) and ([maki] = 'golf')</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([localrank] &lt;= 1) and ([maki] = 'cemetery') and ([scalerank] = 1)</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([localrank] &lt;= 1) and ([maki] = 'cemetery') and ([scalerank] = 1)</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([localrank] &lt;= 1) and ([maki] = 'cemetery') and ([scalerank] = 1)</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([localrank] &lt;= 1) and ([maki] = 'cemetery') and ([scalerank] = 1)</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([localrank] &lt;= 1) and ([maki] = 'cemetery') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([localrank] &lt;= 1) and ([maki] = 'cemetery') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([localrank] &lt;= 1) and ([maki] = 'cemetery') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([scalerank] &lt;= 3) and ([localrank] &lt;= 1) and ([maki] = 'cemetery')</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([scalerank] &lt;= 3) and ([localrank] &lt;= 1) and ([maki] = 'cemetery')</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([scalerank] &lt;= 3) and ([localrank] &lt;= 1) and ([maki] = 'zoo')</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([scalerank] &lt;= 3) and ([localrank] &lt;= 1) and ([maki] = 'zoo')</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([scalerank] &lt;= 3) and ([maki] = 'park')</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([scalerank] &lt;= 3) and ([maki] = 'park')</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([scalerank] &lt;= 3) and ([maki] = 'zoo')</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([scalerank] &lt;= 3) and ([maki] = 'zoo')</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([scalerank] &lt;= 3) and ([maki] = 'golf')</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([scalerank] &lt;= 3) and ([maki] = 'golf')</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([scalerank] &lt;= 3) and ([maki] = 'cemetery')</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([scalerank] &lt;= 3) and ([maki] = 'cemetery')</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([localrank] &lt;= 1) and ([scalerank] = 1)</Filter>
-    <TextSymbolizer face-name="Market Offc Pro Regular" fill="#79bd9a" size="13" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Komika Hand Italic" fill="#79bd9a" size="13" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([localrank] &lt;= 1) and ([scalerank] = 1)</Filter>
-    <TextSymbolizer face-name="Market Offc Pro Regular" fill="#79bd9a" size="13" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Komika Hand Italic" fill="#79bd9a" size="13" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([localrank] &lt;= 1) and ([scalerank] = 1)</Filter>
-    <TextSymbolizer face-name="Market Offc Pro Regular" fill="#79bd9a" size="13" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Komika Hand Italic" fill="#79bd9a" size="13" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([localrank] &lt;= 1) and ([scalerank] = 1)</Filter>
-    <TextSymbolizer face-name="Market Offc Pro Regular" fill="#79bd9a" size="13" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Komika Hand Italic" fill="#79bd9a" size="13" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([localrank] &lt;= 1) and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer face-name="Market Offc Pro Regular" fill="#79bd9a" size="13" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Komika Hand Italic" fill="#79bd9a" size="13" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([localrank] &lt;= 1) and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer face-name="Market Offc Pro Regular" fill="#79bd9a" size="13" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Komika Hand Italic" fill="#79bd9a" size="13" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([localrank] &lt;= 1) and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer face-name="Market Offc Pro Regular" fill="#79bd9a" size="13" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Komika Hand Italic" fill="#79bd9a" size="13" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([scalerank] &lt;= 3) and ([localrank] &lt;= 1)</Filter>
-    <TextSymbolizer face-name="Market Offc Pro Regular" fill="#79bd9a" size="13" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Komika Hand Italic" fill="#79bd9a" size="13" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([scalerank] &lt;= 3) and ([localrank] &lt;= 1)</Filter>
-    <TextSymbolizer face-name="Market Offc Pro Regular" fill="#79bd9a" size="13" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Komika Hand Italic" fill="#79bd9a" size="13" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([maki] = 'zoo')</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([maki] = 'cemetery')</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([maki] = 'golf')</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([maki] = 'park')</Filter>
-    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Market Offc Pro Regular" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer fill="#fff8f0" halo-fill="#79bd9a" face-name="Komika Hand Italic" size="13" wrap-width="100" wrap-before="true" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([scalerank] &lt;= 3)</Filter>
-    <TextSymbolizer face-name="Market Offc Pro Regular" fill="#79bd9a" size="13" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Komika Hand Italic" fill="#79bd9a" size="13" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome') and ([scalerank] &lt;= 3)</Filter>
-    <TextSymbolizer face-name="Market Offc Pro Regular" fill="#79bd9a" size="13" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Komika Hand Italic" fill="#79bd9a" size="13" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <Filter>([type] = 'Aerodrome') and ([maki] != 'heliport')</Filter>
-    <TextSymbolizer size="14" face-name="Market Offc Pro Regular" fill="#0b486b" halo-fill="#fff8f0" wrap-width="160" wrap-before="true" line-spacing="-4" halo-radius="2" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="14" face-name="Komika Title Regular" fill="#0b486b" halo-fill="#fff8f0" wrap-width="160" wrap-before="true" line-spacing="-4" halo-radius="2" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([type] = 'Aerodrome') and ([maki] != 'heliport')</Filter>
-    <TextSymbolizer face-name="Market Offc Pro Regular" fill="#0b486b" halo-fill="#fff8f0" wrap-width="160" wrap-before="true" line-spacing="-4" halo-radius="2" size="12" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Komika Title Regular" fill="#0b486b" halo-fill="#fff8f0" wrap-width="160" wrap-before="true" line-spacing="-4" halo-radius="2" size="12" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([type] = 'Aerodrome') and ([maki] != 'heliport')</Filter>
-    <TextSymbolizer face-name="Market Offc Pro Regular" fill="#0b486b" halo-fill="#fff8f0" wrap-width="160" wrap-before="true" line-spacing="-4" halo-radius="2" size="12" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Komika Title Regular" fill="#0b486b" halo-fill="#fff8f0" wrap-width="160" wrap-before="true" line-spacing="-4" halo-radius="2" size="12" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] != 'Aerodrome')</Filter>
-    <TextSymbolizer face-name="Market Offc Pro Regular" fill="#79bd9a" size="13" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Komika Hand Italic" fill="#79bd9a" size="13" wrap-width="100" wrap-before="true" halo-fill="#fff8f0" halo-radius="2" line-spacing="-5" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
 </Style>
 <Layer name="poi_label"
