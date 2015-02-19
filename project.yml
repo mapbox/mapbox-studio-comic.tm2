@@ -1,17 +1,17 @@
-_prefs:
+_prefs: 
   saveCenter: false
-_properties:
-  bridge:
+_properties: 
+  bridge: 
     "group-by": layer
 attribution: "<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>"
-bounds:
+bounds: 
   - -180
   - -85.0511
   - 180
   - 85.0511
-center:
-  - -73.94159317016602
-  - 40.733437713434405
+center: 
+  - -73.9416
+  - 40.7334
   - 14
 description: ''
 format: "png8:m=h"
@@ -20,8 +20,8 @@ layers: null
 maxzoom: 22
 minzoom: 0
 name: Comic!
-source: "mapbox:///mapbox.mapbox-streets-v5"
-styles:
+source: "mapbox:///mapbox.mapbox-streets-v6"
+styles: 
   - style.mss
   - labels.mss
 template: ''

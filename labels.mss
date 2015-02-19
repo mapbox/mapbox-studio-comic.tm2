@@ -6,7 +6,7 @@
 @italic: 'Komika Hand Italic';
 
 #country_label[zoom>=3] {
-  //adding "!" to city names for excitement and satisfaction
+  // adding "!" to names for excitement and satisfaction
   text-name: "[name_en] + '!'";
   text-transform: uppercase;
   text-face-name: @regular;
@@ -31,10 +31,6 @@
   [zoom>=7][scalerank>3] {
     text-size: 28;
   }
-}
-
-#country_label_line {
-  line-color: @medium;
 }
 
 #place_label {
@@ -107,8 +103,8 @@
   [zoom>=13] { text-size: 14; }
 }
 
-#poi_label[type!='Aerodrome'] {
-  [zoom<14],
+#poi_label[zoom>=7][type!='Aerodrome'][type!='Rail Station'] {
+  [zoom<14][localrank<=1],
   [zoom>=14][scalerank=1][localrank<=1],
   [zoom>=15][scalerank<=2][localrank<=1],
   [zoom>=16][scalerank<=3][localrank<=1],
