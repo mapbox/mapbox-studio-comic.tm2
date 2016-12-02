@@ -1,5 +1,5 @@
 {
-  "name": "mapbox-studio-comic",
+  "name": "@mapbox/mapbox-studio-comic",
   "version": "2.0.2",
   "description": "Style for Mapbox Studio",
   "main": "./package.json",
